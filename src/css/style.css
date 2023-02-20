@@ -217,6 +217,7 @@ body::before {
   transition: 0.5s all ease-in-out;
   transform: scale(1);
   z-index: 1;
+  color: #181818;
 }
 .starStyle .btn:hover {
   transform: scale(1.1);
@@ -429,6 +430,13 @@ body::before {
   width: 580px;
   height: 325px;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .modal .background #video {
+    width: 310px;
+    height: 280px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
